@@ -1,0 +1,3 @@
+java -jar E:\Selenium_Training\ZOHOCucumberPOM\selenium-server-standalone-3.141.59.jar -role hub
+
+java -Dwebdriver.gecko.driver="E:\drivers\geckodriver.exe" -Dwebdriver.chrome.driver="E:\drivers\chromedriver.exe" -jar E:\Selenium_Training\ZOHOCucumberPOM\selenium-server-standalone-3.141.59.jar -role node -nodeConfig E:\Selenium_Training\ZOHOCucumberPOM\node1.json
